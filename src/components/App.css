@@ -1,0 +1,18 @@
+.App {
+  text-align: left;
+  font-family: Circular;
+  font-size: 30px;
+  margin: -8px;
+}
+
+.white {
+  color: white;
+}
+
+html body {
+  padding-top: 25px;
+}
+
+html{
+  background-color: #f98118;
+}

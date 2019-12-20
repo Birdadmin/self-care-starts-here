@@ -1,0 +1,44 @@
+.Header {
+  text-align: left;
+
+}
+
+a {
+  cursor: default;
+}
+
+.Logo {
+}
+
+@media screen and (min-width: 601px) {
+  .Logo {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    max-width: 200px;
+    
+  }
+
+  .Header {
+    text-align: left;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Logo {
+    margin-top: 1%;
+    padding-bottom: -40%;
+    margin-right: 10px;
+    max-width: 200px;
+  }
+
+  .Header {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}

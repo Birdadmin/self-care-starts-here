@@ -1,0 +1,111 @@
+.copy-bCorp h1 {
+  color: #343434;
+  font-family: CircularBold;
+}
+.bCorp  {
+  overflow: hidden;
+}
+.copy-bCorp button {
+  background-color: #fcdb0d;
+  color: #d64a73;
+  font-family: CircularBold;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  text-transform: capitalize;
+}
+
+.copy-bCorp button:hover {
+  background-color: #474b55;
+  color: white;
+}
+
+.hemp-classic img {
+  max-width: 500px;
+}
+
+@media screen and (min-width: 801px) {
+  .flex-container-bCorp {
+    display: flex wrap;
+    align-content: left;
+    margin-left: -120px;
+    max-width: 800px;
+  }
+
+  .hemp-classic img {
+    display: none;
+  }
+
+  .hemp-classic-bcorp img { 
+    max-width: 500px;
+    margin-left: 50px;
+    margin-top: -180px;
+    position: absolute;
+   }
+  
+  .copy-bCorp {
+    margin-left: -35%;
+    margin-top: 0%;
+  }
+
+  .copy-bCorp h1 {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0px;
+  }
+
+  .logo-bCorp img {
+    display: none;
+  }
+
+  .copy-bCorp button {
+    display: flex;
+    margin-top: 8%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container-bCorp {
+    display: flex wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: -70px;
+  }
+
+  .hemp-classic-bcorp img {
+    display: none;
+  }
+  .hemp-classic img {
+    max-width: 500px;
+    margin-bottom: -80px;
+  }
+
+  .copy-bCorp {
+    margin-top: -6%;
+    margin-bottom: 60px;
+  }
+
+  .copy-bCorp h1 {
+    text-align: center;
+    font-size: 1.25em;
+    padding-left: 0px;
+    margin-bottom: -30px;
+  }
+
+  .copy-bCorp button {
+    margin-top: 10%;
+    margin-left: 0%;
+    font-size: 18px;
+  }
+
+  .logo-bCorp img {
+    max-width: 280px;
+    margin-top: -50px;
+  }
+
+  div.hero-bCorp {
+    padding-top: 0%;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,93 @@
+.copy-first {
+
+}
+
+.copy-first h1 {
+  margin: 0;
+  color: #484b54;
+  font-family: CircularBold;
+}
+
+.copy-first button {
+  background-color: white;
+  color: #484b54;
+  font-family: CircularBold;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px 6px 15px;
+  text-transform: capitalize;
+}
+
+.copy-first button:hover {
+  color: white;
+  background-color: #eb5b44;
+}
+
+@media screen and (min-width: 901px) {
+  .copy-first {
+    display: flex wrap;
+    margin-left: 50%;
+    margin-top: 0%;
+    min-width: 400px;
+  }
+
+  .copy-first h1 {
+    text-align: left;
+    margin-left: 0%;
+    font-size: 1.75em;
+    margin-bottom: -4%
+  }
+
+  .copy-first button {
+    margin-top: 8%;
+    font-size: 18px;
+    margin-left: -70%;
+  }
+
+  .mobile-image-first img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .flex-container-first {
+    display: flex wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .mobile-image-first img {
+    margin-bottom: -10px;
+    max-width: 80%;
+    margin-left: 0%;
+    z-index: -5;
+    overflow: hidden;
+  }
+
+  .copy-first {
+    padding-top: 0px;
+  }
+
+  .copy-first h1 {
+    font-size: 1.25em;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+  .copy-first button {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 4%;
+    font-size: 18px;
+  }
+
+  .hero-first div {
+    background-color: #f98118;
+    opacity: 1;
+    margin-top: 0%;
+    padding-bottom: 1%;
+    overflow: hidden;
+  }
+}
