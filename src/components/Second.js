@@ -11,7 +11,7 @@ function Second(props) {
             <img src={ require('../images/silk-lotion-mobile.jpg')}/>
           </div>
           <div className="copy-second">
-          <h1><span className="white">Explore Lotions</span></h1> 
+          <h1><span className="white">Explore lotions</span></h1> 
           <h1>& topicals.</h1>
           <button type="button" onClick={props.redirect} >Shop Now</button>
         </div>
