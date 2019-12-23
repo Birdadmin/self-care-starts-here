@@ -6,21 +6,21 @@
   overflow: hidden;
 }
 .copy-bCorp button {
-  background-color: #fcdb0d;
-  color: #d64a73;
+  background-color: white;
+  color: black;
   font-family: CircularBold;
   border-radius: 15px;
   border: none;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px 6px 15px;
   text-transform: capitalize;
 }
 
 .copy-bCorp button:hover {
-  background-color: #474b55;
+  background-color: #49c15f;
   color: white;
 }
 
-.hemp-classic img {
+.essential img {
   max-width: 500px;
 }
 
@@ -32,14 +32,14 @@
     max-width: 800px;
   }
 
-  .hemp-classic img {
+  .essential-mobile img {
     display: none;
   }
 
-  .hemp-classic-bcorp img { 
+  .essential img { 
     max-width: 500px;
     margin-left: 50px;
-    margin-top: -180px;
+    margin-top: -220px;
     position: absolute;
    }
   
@@ -50,8 +50,9 @@
 
   .copy-bCorp h1 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.75em;
     margin: 0px;
+    margin-top: -20px;
   }
 
   .logo-bCorp img {
@@ -60,7 +61,8 @@
 
   .copy-bCorp button {
     display: flex;
-    margin-top: 8%;
+    margin-top: 5%;
+    margin-left: 25px;
     font-size: 18px;
   }
 }
@@ -70,15 +72,15 @@
     display: flex wrap;
     align-content: center;
     justify-content: center;
-    margin-top: -70px;
+    margin-top: 0px;
   }
 
-  .hemp-classic-bcorp img {
+  .essential img {
     display: none;
   }
-  .hemp-classic img {
-    max-width: 500px;
-    margin-bottom: -80px;
+  .essential-mobile img {
+    max-height: 350px;
+    margin-bottom: 0px;
   }
 
   .copy-bCorp {
@@ -94,7 +96,7 @@
   }
 
   .copy-bCorp button {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 0%;
     font-size: 18px;
   }

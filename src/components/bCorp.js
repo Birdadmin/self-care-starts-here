@@ -7,11 +7,11 @@ function bCorp(props) {
     <div className="bCorp">
       <LazyHero  opacity="0" minHeight="700px" opacity="1" parallaxOffset="0" color='#00a6d4' className="hero-bCorp" isCentered="true" >
         <div className="flex-container-bCorp">
-          <div className="hemp-classic">
-              <img src={ require('../images/classic-extract.png') }/>
+          <div className="essential-mobile">
+            <img src={ require('../images/essential.png') }/>
           </div>
-          <div className="hemp-classic-bcorp">
-              <img src={ require('../images/classic-extract-bcorp-2.png') }/>
+          <div className="essential">
+            <img src={ require('../images/essential.png') }/>
           </div>
           <div className="copy-bCorp">
               <h1><span className="white">Bluebird</span> is on </h1>
