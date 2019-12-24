@@ -1,6 +1,6 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
-import './bCorp.css'
+import './Third.css'
 
 function bCorp(props) {
   return (

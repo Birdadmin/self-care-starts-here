@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header'
 import First from './First'
 import Second from './Second'
-import Bcorp from './Bcorp'
+import Third from './Third'
 
 import './App.css';
 
@@ -16,7 +16,7 @@ class App extends React.Component {
         <Header />
         <First redirect={this.redirect}/>
         <Second redirect={this.redirect}/>
-        <Bcorp redirect={this.redirect}/>
+        <Third redirect={this.redirect}/>
       </div>
     );
   }
