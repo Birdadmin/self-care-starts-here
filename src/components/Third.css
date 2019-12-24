@@ -28,8 +28,9 @@
   .flex-container-bCorp {
     display: flex wrap;
     align-content: left;
-    margin-left: -120px;
+    margin-left: 0px;
     max-width: 800px;
+    margin-top: 60px;
   }
 
   .essential-mobile img {
