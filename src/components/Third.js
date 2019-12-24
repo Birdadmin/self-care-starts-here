@@ -14,12 +14,12 @@ function bCorp(props) {
             <img src={ require('../images/essential.png') }/>
           </div>
           <div className="copy-bCorp">
-              <h1><span className="white">Bluebird</span> is on </h1>
+              <h1><span className="white">We are on</span></h1>
               <h1>a mission.</h1> 
             <button type="button" onClick={props.redirect} >Shop Now</button>
           </div>
           <div className="logo-bCorp">
-              <img src={ require('../images/bCorp-logo-S.png') }/>
+              <img src={ require('../images/bCorp.png') }/>
           </div>
         </div>  
       </LazyHero>

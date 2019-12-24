@@ -1,5 +1,5 @@
 .copy-bCorp h1 {
-  color: #343434;
+  color: #484b54;
   font-family: CircularBold;
 }
 .bCorp  {
@@ -37,22 +37,25 @@
   }
 
   .essential img { 
-    max-width: 500px;
-    margin-left: 50px;
-    margin-top: -220px;
+    max-height: 500px;
+    margin-left: -250px;
+    margin-top: -180px;
     position: absolute;
    }
   
   .copy-bCorp {
-    margin-left: -35%;
+    display: flex wrap;
+    margin-left: 50%;
     margin-top: 0%;
+    min-width: 400px;
   }
 
   .copy-bCorp h1 {
     text-align: left;
+    margin-left: 0%;
     font-size: 1.75em;
-    margin: 0px;
-    margin-top: -20px;
+    margin-bottom: -4%;
+    margin-top: -10px;
   }
 
   .logo-bCorp img {
@@ -61,8 +64,8 @@
 
   .copy-bCorp button {
     display: flex;
-    margin-top: 5%;
-    margin-left: 25px;
+    margin-top: 8%;
+    margin-left: 0px;
     font-size: 18px;
   }
 }

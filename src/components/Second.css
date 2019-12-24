@@ -21,6 +21,10 @@
   background-color: #f98118;
 }
 
+.silk img { 
+  max-width: 500px;
+}
+
 @media screen and (min-width: 901px) {
   .copy-second {
     display: flex wrap;
@@ -39,11 +43,18 @@
   .copy-second button {
     margin-top: 8%;
     font-size: 18px;
-    margin-left: -70%;
+    margin-left: -75%;
   }
 
-  .mobile-image-second  img {
+  .silk-mobile  img {
     display: none;
+  }
+
+  .silk img { 
+    max-height: 500px;
+    margin-left: 90px;
+    margin-top: -170px;
+    position: absolute;
   }
 }
 
@@ -56,12 +67,15 @@
 
   }
 
-  .mobile-image-second img {
+  .silk-mobile img {
     margin-bottom: 0%;
-    height: auto;
-    max-width: 75%;
+    max-height: 350px;
     z-index: -5;
     overflow: hidden;
+  }
+
+  .silk img {
+    display: none;
   }
 
   .copy-second h1 {
@@ -79,7 +93,7 @@
   }
 
   .hero-second div {
-    background-color: #ff4f2f;
+    background-color: #ec5c44;
     opacity: 1;
     overflow: hidden;
   }
